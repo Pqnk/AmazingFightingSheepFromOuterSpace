@@ -1,0 +1,37 @@
+----------------------------------------------------
+----------------------------------------------------
+-------AMAZING FIGHTING SHEEP FROM OUTER SPACE------
+----------------------------------------------------
+----------------------------------------------------
+
+One Week video-game project on Unity
+By 
+
+Jean Ely
+&
+Robin Augros
+
+
+---------------------------------------
+
+ASSETS USED : 
+
+Polygon Scify Space (Unity Asset store)
+
+---------------------------------------
+
+SCRIPTS USED AND MODIFIED FROM "rhomita" :
+
+https://www.youtube.com/watch?v=x_5pxFtDMMI&ab_channel=RhomitaDev
+https://github.com/rhomita/mario-galaxy-gravity-mechanics
+
+Modified 2 of his great scripts from his git project to our needs !
+
+2 scripts (Gravity Area and Gravity Body) for enhancing our gravity control we already implemented on our own.
+
+---------------------------------------
+
+Controls : 
+
+Gamepads are mandatory !
+2 players are mandatory ! 

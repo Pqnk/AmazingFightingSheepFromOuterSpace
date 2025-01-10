@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1645864048326583424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3762772696089249017}
+  - component: {fileID: 7804331364668212395}
+  - component: {fileID: 1792400067291429427}
+  - component: {fileID: 4822284013633809768}
+  - component: {fileID: 2421514832979054539}
+  - component: {fileID: 995024942398680661}
+  - component: {fileID: 4370743766399868933}
+  - component: {fileID: 1581235974707845200}
+  - component: {fileID: 999481229834101089}
+  - component: {fileID: 4678598148613138711}
+  m_Layer: 0
+  m_Name: SuperManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3762772696089249017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7804331364668212395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa52fbd082607a40bb76b37e9632541, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1792400067291429427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55ac2b569dd3ed4bae6c34a3f742ba5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debris:
+  - {fileID: 1419430644115202, guid: 96ec3966e2e9e004086cf5209750e0b2, type: 3}
+--- !u!114 &4822284013633809768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f9c92ccbfb172a43a4059bef34128bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentLanguage: En
+  keyLanguage: 0
+--- !u!114 &2421514832979054539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bd9ee457e49f846aea22b05efb692a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenes: 0
+--- !u!114 &995024942398680661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca354b80995838e4b9ea755eaab0195d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4370743766399868933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa7e382722f2a0a439bbbed6807bf602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxScore: 2
+  allPlayersObject: []
+--- !u!114 &1581235974707845200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4165e36204e00c40b5a004303147446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundPrefab: {fileID: 7702958936401434019, guid: 96a211d236e65144aa8d735ea540f691,
+    type: 3}
+  music: {fileID: 8300000, guid: 051ebd0b5ad123347be47972b0fa79ab, type: 3}
+  hitSound: {fileID: 8300000, guid: 75f5f87719d5e2b458b2b3af694ca6ff, type: 3}
+  sheepSound: {fileID: 8300000, guid: 91cc93c57f56b724ebb55156a390d7c3, type: 3}
+  jumpSound: {fileID: 8300000, guid: 83a5c9ce599147844aee4c635178b79b, type: 3}
+  sphereSound: {fileID: 8300000, guid: 7a9dd1bbbbaa3e5469800d9521812338, type: 3}
+  slurpSound: {fileID: 8300000, guid: b25af2a650f236e4a805d60bfe35387b, type: 3}
+--- !u!114 &999481229834101089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35c75baf4318f4e4898f84f04146e1b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitParticle: {fileID: 9157105887693468085, guid: c4f829cb7dd4b864caf8832ec5b1ee55,
+    type: 3}
+  stunParticle: {fileID: 6300717128283190289, guid: 90375796f996bff4cabed66da5e558cb,
+    type: 3}
+  playerReadyParticle: {fileID: 3280519133390621004, guid: a71be3e7990efb040a07565c43cbb198,
+    type: 3}
+  spawnPlayerParticle: {fileID: 2921492247685270766, guid: a8f7b91d18dd8114187fa6427d7b1dcd,
+    type: 3}
+  attackParticle: {fileID: 8771972552311404798, guid: bbf9e36a48d6c5648a13889afab076fd,
+    type: 3}
+--- !u!114 &4678598148613138711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645864048326583424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1139e35442deaa84ead4a5686388f6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
